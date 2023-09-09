@@ -7,25 +7,26 @@ Welcome to the Neural Network Charity Analysis project! This initiative aims to 
 
 To accomplish our goals, we've leveraged a range of resources and tools:
 
-Jupyter Notebooks:
+### Jupyter Notebooks:
 
-AlphabetSoupCharity.ipynb: Initial notebook for data exploration and preprocessing.
-AlphabetSoupCharity_Optimization.ipynb: Notebook for model optimization.
-Saved Models:
+- AlphabetSoupCharity.ipynb: Initial notebook for data exploration and preprocessing.
+- AlphabetSoupCharity_Optimization.ipynb: Notebook for model optimization.
+### Saved Models:
 
-AlphabetSoupCharity.h5: Initial model before optimization.
-AlphabetSoupCharity_Optimization.h5: Optimized model.
-Data Source:
+- AlphabetSoupCharity.h5: Initial model before optimization.
+- AlphabetSoupCharity_Optimization.h5: Optimized model.
+### Data Source:
 
 charity_data.csv: The dataset containing charity-related information.
-Libraries and Frameworks: We've harnessed the power of various Python libraries and frameworks, including:
 
+### Libraries and Frameworks: 
+We've harnessed the power of various Python libraries and frameworks, including:
+- Pandas: For data manipulation and preprocessing.
+- SciKit Learn: For machine learning tasks.
+- TensorFlow and Keras: For building and training our Neural Network.
+- PySpark: For scalable data processing.
+  
 ----------------------------------------------------------------------
-
-Pandas: For data manipulation and preprocessing.
-SciKit Learn: For machine learning tasks.
-TensorFlow and Keras: For building and training our Neural Network.
-PySpark: For scalable data processing.
 
 
 ![image_name](images/layers_neurons.png)
@@ -33,23 +34,21 @@ PySpark: For scalable data processing.
 
 ## Results:
 
-
-Data Preprocessing
 In the initial stages, our focus was on preprocessing the data to ensure it's ready for the Neural Network. We had a variety of features to work with, including:
 
 ### Columns of Charity 
-❌ EIN (Identification number)
-📈 NAME (Identification name)
-✅ APPLICATION_TYPE (Alphabet Soup application type)
-✅ AFFILIATION (Affiliated sector of industry)
-✅ CLASSIFICATION (Government organization classification)
-✅ USE_CASE (Use case for funding)
-✅ ORGANIZATION (Organization type)
-✅ STATUS (Active status)
-✅ INCOME_AMT (Income classification)
-✅ SPECIAL_CONSIDERATIONS (Special consideration for application)
-✅ ASK_AMT (Funding amount requested)
-Ⓜ️ IS_SUCCESSFUL (Was the money used effectively)
+- ❌ EIN (Identification number) 
+- 📈 NAME (Identification name) 
+- ✅ APPLICATION_TYPE (Alphabet Soup application type)
+- ✅ AFFILIATION (Affiliated sector of industry)
+- ✅ CLASSIFICATION (Government organization classification)
+- ✅ USE_CASE (Use case for funding)
+- ✅ ORGANIZATION (Organization type)
+- ✅ STATUS (Active status)
+- ✅ INCOME_AMT (Income classification)
+- ✅ SPECIAL_CONSIDERATIONS (Special consideration for application)
+- ✅ ASK_AMT (Funding amount requested)
+- Ⓜ️ IS_SUCCESSFUL (Was the money used effectively)
 
 ![image_name](images/accuracy.png)
 
